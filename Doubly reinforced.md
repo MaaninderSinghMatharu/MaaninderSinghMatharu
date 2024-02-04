@@ -21,7 +21,7 @@ A rectangular section with reinforcement on tension and compression side is show
 ![Section Analysis](https://github.com/MaaninderSinghMatharu/MaaninderSinghMatharu/blob/main/stresstrain.jpg)
 
 ### Depth of neutral axis- ($x_u$)
-   $$ x_u = \frac{0.87 f_y A_st - f_sc A_sc}{0.36 f_ck b}$$
+   $$ x_u = \frac{0.87 f_y A_s_t - f_s_c A_s_c}{0.36 f_c_k b}$$
    
    where
     $f_y = $ characteristic strength of steel,
@@ -34,7 +34,7 @@ A rectangular section with reinforcement on tension and compression side is show
    
 ### Moment of ultimate resistance- ($M_u$)
     
-   $ M_u=0.36 f_ck b x_u (d-0.42 x_u) + f_sc A_sc (d-d')$
+   $ M_u = 0.36 f_c_k b x_u (d-0.42 x_u) + f_s_c A_s_c (d-d')$
 
   where
    $d = $ effective depth of the beam,
@@ -42,7 +42,7 @@ A rectangular section with reinforcement on tension and compression side is show
 
 ### Area of steel-
   In tension-
-     $$ A_st = \frac{M_u,lim}{0.87 f_y (d - 0.42 x_u,max)}$$
+     $$ A_st = \frac{M_u,lim}{0.87 f_y (d - 0.42 x_u_,_m_a_x)}$$
 where
 
    $M_u,lim = $ limiting moment of resistance as shown in table below,
