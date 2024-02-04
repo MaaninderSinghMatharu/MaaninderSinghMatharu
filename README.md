@@ -20,11 +20,10 @@ A rectangular section with reinforcement on tension and compression side is show
 
 ![Section Analysis](file:///C:/Users/Daybie/Downloads/stresstrain.jpg)
 
-### Depth of neutral axis- (x_u)
+### Depth of neutral axis- ($x_u$)
    $$ x_u = \frac{0.87 f_y A_st - f_sc A_sc}{0.36 f_ck b}$$
    
    where
-
     $f_y = $ characteristic strength of steel,
     $A_st = $ Area of steel in tension,
     $A_sc = $ Area of steel in compression,
@@ -33,7 +32,7 @@ A rectangular section with reinforcement on tension and compression side is show
     
    Note$-$ Depth of neutral axis decreases with increase in compression steel.
    
-### Moment of ultimate resistance- (M_u)
+### Moment of ultimate resistance- ($M_u$)
     
    $ M_u=0.36 f_ck b x_u (d-0.42 x_u) + f_sc A_sc (d-d')$
 
@@ -46,10 +45,10 @@ A rectangular section with reinforcement on tension and compression side is show
      $$ A_st = \frac{M_u,lim}{0.87 f_y (d - 0.42 x_u,max)}$$
 where
 
-    $M_u,lim = $ limiting moment of resistance as shown in table below,
+   $M_u,lim = $ limiting moment of resistance as shown in table below,
    ![limiting moment of resistance](file:///C:/Users/Daybie/Downloads/limitingmomentofresistance.jpg)
    
-    $f_sc = $ Stress in steel in compression,
+   $f_sc = $ Stress in steel in compression,
     
   In compression-
      $$ A_sc = \frac{M_u2}{f_sc (d - d')}$$
