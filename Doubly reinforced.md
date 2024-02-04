@@ -21,7 +21,7 @@ A rectangular section with reinforcement on tension and compression side is show
 ![Section Analysis](stresstrain.jpg)
 
 ### Depth of neutral axis- ($x_u$)
-   $$ x_u = \frac{0.87 f_y A_s_t - f_s_c A_s_c}{0.36 f_c_k b}$$
+   $$ x_u = \frac{0.87 f_y A(_st) - f(_sc) A(_sc), }{0.36 f(_ck) b}$$
    
    where
     $f_y = $ characteristic strength of steel,
