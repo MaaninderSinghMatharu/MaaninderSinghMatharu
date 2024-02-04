@@ -46,7 +46,7 @@ A rectangular section with reinforcement on tension and compression side is show
 where
 
    $M_u,lim = $ limiting moment of resistance as shown in table below,
-   ![limiting moment of resistance](file:///C:/Users/Daybie/Downloads/limitingmomentofresistance.jpg)
+   ![limiting moment of resistance]([file:///C:/Users/Daybie/Downloads/limitingmomentofresistance.jpg](https://github.com/MaaninderSinghMatharu/MaaninderSinghMatharu/blob/main/limiting%20moment%20of%20resistance.jpg?raw=true))
    
    $f_sc = $ Stress in steel in compression,
     
