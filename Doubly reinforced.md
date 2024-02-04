@@ -18,7 +18,7 @@ A doubly reinforced beam is generally provided under the following conditions:
 The doubly reinforced beams are considered as uneconomical beams, as the strength of compression reinforcement is not fully utilized.
 A rectangular section with reinforcement on tension and compression side is shown in below given Figure.
 
-![Section Analysis](file:///C:/Users/Daybie/Downloads/stresstrain.jpg)
+![Section Analysis](https://github.com/MaaninderSinghMatharu/MaaninderSinghMatharu/blob/main/stresstrain.jpg)
 
 ### Depth of neutral axis- ($x_u$)
    $$ x_u = \frac{0.87 f_y A_st - f_sc A_sc}{0.36 f_ck b}$$
