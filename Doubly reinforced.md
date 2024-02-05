@@ -25,7 +25,7 @@ A rectangular section with reinforcement on tension and compression side is show
    
    where
     $$f_y =$$ characteristic strength of steel,
-    $A_st = $ Area of steel in tension,
+    $A_st =$ Area of steel in tension,
     $A_sc = $ Area of steel in compression,
     $f_ck = $ charactristic strentgh of concrete, and
     $b = $ width of the beam.
