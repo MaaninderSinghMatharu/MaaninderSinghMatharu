@@ -24,7 +24,7 @@ A rectangular section with reinforcement on tension and compression side is show
    $$ x_u = \frac{0.87 f_y A(_st) - f(_sc) A(_sc), }{0.36 f(_ck) b}$$
    
    where
-    $f_y = $ characteristic strength of steel,
+    $$f_y =$$ characteristic strength of steel,
     $A_st = $ Area of steel in tension,
     $A_sc = $ Area of steel in compression,
     $f_ck = $ charactristic strentgh of concrete, and
