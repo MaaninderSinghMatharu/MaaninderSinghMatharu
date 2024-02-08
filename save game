@@ -15,7 +15,7 @@
           <DampeningOverride Command="INPUTCMD_BRAKE" ValueWhenTrue="0.000000"/>
         </Entry>
       </AnalogInput>
-      <AnalogInput Command="INPUTCMD_BRAKE" MouseButton="0" Key="40" KeyFlags="1" BuildUpModifier="0.000000" FallOffModifier="0.000000" MaxValue="1.000000">
+      <AnalogInput Command="INPUTCMD_BRAKE" MouseButton="0" Key="83" KeyFlags="1" BuildUpModifier="0.000000" FallOffModifier="0.000000" MaxValue="1.000000">
         <Entry>
           <DampeningOverride Command="INPUTCMD_GAS" ValueWhenTrue="0.000000"/>
         </Entry>
@@ -23,11 +23,11 @@
       <AnalogInput Command="INPUTCMD_HANDBRAKE" MouseButton="0" Key="32" KeyFlags="1" BuildUpModifier="0.000000" FallOffModifier="0.000000" MaxValue="1.000000"/>
       <AnalogInput Command="INPUTCMD_CLUTCH" MouseButton="0" Key="16" KeyFlags="1" BuildUpModifier="0.000000" FallOffModifier="0.000000" MaxValue="1.000000"/>
       <AnalogInput Command="INPUTCMD_LOOK_FORWARD" MouseButton="0" Key="38" KeyFlags="1" BuildUpModifier="0.000000" FallOffModifier="0.000000" MaxValue="1.000000"/>
-      <AnalogInput Command="INPUTCMD_LOOK_BACK" MouseButton="0" Key="83" KeyFlags="1" BuildUpModifier="0.000000" FallOffModifier="0.000000" MaxValue="1.000000"/>
-      <AnalogInput Command="INPUTCMD_LOOK_LEFT" MouseButton="0" Key="65" KeyFlags="1" BuildUpModifier="0.000000" FallOffModifier="0.000000" MaxValue="1.000000"/>
-      <AnalogInput Command="INPUTCMD_LOOK_RIGHT" MouseButton="0" Key="68" KeyFlags="1" BuildUpModifier="0.000000" FallOffModifier="0.000000" MaxValue="1.000000"/>
+      <AnalogInput Command="INPUTCMD_LOOK_BACK" MouseButton="0" Key="40" KeyFlags="1" BuildUpModifier="0.000000" FallOffModifier="0.000000" MaxValue="1.000000"/>
+      <AnalogInput Command="INPUTCMD_LOOK_LEFT" MouseButton="0" Key="37" KeyFlags="1" BuildUpModifier="0.000000" FallOffModifier="0.000000" MaxValue="1.000000"/>
+      <AnalogInput Command="INPUTCMD_LOOK_RIGHT" MouseButton="0" Key="39" KeyFlags="1" BuildUpModifier="0.000000" FallOffModifier="0.000000" MaxValue="1.000000"/>
       <AnalogInput Command="INPUTCMD_HORN" MouseButton="0" Key="72" KeyFlags="1" BuildUpModifier="0.000000" FallOffModifier="0.000000" MaxValue="1.000000"/>
-      <LinearInput Command="INPUTCMD_STEERING" MouseButtonLow="0" MouseButtonHigh="0" KeyHigh="39" KeyHighFlags="1" KeyLow="37" KeyLowFlags="1" BuildUpModifier="0.000000" FallOffModifier="0.000000" MaxValue="1.000000" MinValue="-1.000000" FallOffModifierOnOpposingKeyDown="0.000000"/>
+      <LinearInput Command="INPUTCMD_STEERING" MouseButtonLow="0" MouseButtonHigh="0" KeyHigh="68" KeyHighFlags="1" KeyLow="65" KeyLowFlags="1" BuildUpModifier="0.000000" FallOffModifier="0.000000" MaxValue="1.000000" MinValue="-1.000000" FallOffModifierOnOpposingKeyDown="0.000000"/>
     </Context>
     <Context Context="INPUTCONTEXT_FREECAM">
       <AnalogInput Command="INPUTCMD_MOVE_UP" MouseButton="0" Key="33" KeyFlags="1" BuildUpModifier="0.500000" FallOffModifier="0.100000" MaxValue="1.000000">
@@ -189,9 +189,9 @@
       <ButtonInput Command="INPUTCMD_PAUSE_GAME" IsPrimary="1" MouseButton="0" Key="27" KeyFlags="1" IsAnOnEvent="1"/>
       <ButtonInput Command="INPUTCMD_ONLINE_ACTIVATE" IsPrimary="1" MouseButton="0" Key="78" KeyFlags="1" IsAnOnEvent="1"/>
       <AnalogInput Command="INPUTCMD_LOOK_FORWARD" MouseButton="0" Key="38" KeyFlags="1" BuildUpModifier="0.000000" FallOffModifier="0.000000" MaxValue="1.000000"/>
-      <AnalogInput Command="INPUTCMD_LOOK_BACK" MouseButton="0" Key="83" KeyFlags="1" BuildUpModifier="0.000000" FallOffModifier="0.000000" MaxValue="1.000000"/>
-      <AnalogInput Command="INPUTCMD_LOOK_LEFT" MouseButton="0" Key="65" KeyFlags="1" BuildUpModifier="0.000000" FallOffModifier="0.000000" MaxValue="1.000000"/>
-      <AnalogInput Command="INPUTCMD_LOOK_RIGHT" MouseButton="0" Key="68" KeyFlags="1" BuildUpModifier="0.000000" FallOffModifier="0.000000" MaxValue="1.000000"/>
+      <AnalogInput Command="INPUTCMD_LOOK_BACK" MouseButton="0" Key="40" KeyFlags="1" BuildUpModifier="0.000000" FallOffModifier="0.000000" MaxValue="1.000000"/>
+      <AnalogInput Command="INPUTCMD_LOOK_LEFT" MouseButton="0" Key="37" KeyFlags="1" BuildUpModifier="0.000000" FallOffModifier="0.000000" MaxValue="1.000000"/>
+      <AnalogInput Command="INPUTCMD_LOOK_RIGHT" MouseButton="0" Key="39" KeyFlags="1" BuildUpModifier="0.000000" FallOffModifier="0.000000" MaxValue="1.000000"/>
       <AnalogInput Command="INPUTCMD_HORN" MouseButton="0" Key="72" KeyFlags="1" BuildUpModifier="0.000000" FallOffModifier="0.000000" MaxValue="1.000000"/>
     </Context>
     <Context Context="INPUTCONTEXT_COPTER">
@@ -238,20 +238,20 @@
       <ButtonInput Command="INPUTCMD_OPEN_MAP" IsPrimary="1" MouseButton="0" Key="77" KeyFlags="1" IsAnOnEvent="1"/>
       <ButtonInput Command="INPUTCMD_PAUSE_GAME" IsPrimary="1" MouseButton="0" Key="27" KeyFlags="1" IsAnOnEvent="1"/>
       <ButtonInput Command="INPUTCMD_ONLINE_ACTIVATE" IsPrimary="1" MouseButton="0" Key="78" KeyFlags="1" IsAnOnEvent="1"/>
-      <AnalogInput Command="INPUTCMD_GAS" MouseButton="0" Key="87" KeyFlags="1" BuildUpModifier="0.000000" FallOffModifier="0.000000" MaxValue="1.000000">
+      <AnalogInput Command="INPUTCMD_GAS" MouseButton="0" Key="38" KeyFlags="1" BuildUpModifier="0.000000" FallOffModifier="0.000000" MaxValue="1.000000">
         <Entry>
           <DampeningOverride Command="INPUTCMD_BRAKE" ValueWhenTrue="0.000000"/>
         </Entry>
       </AnalogInput>
-      <AnalogInput Command="INPUTCMD_BRAKE" MouseButton="0" Key="83" KeyFlags="1" BuildUpModifier="0.000000" FallOffModifier="0.000000" MaxValue="1.000000">
+      <AnalogInput Command="INPUTCMD_BRAKE" MouseButton="0" Key="40" KeyFlags="1" BuildUpModifier="0.000000" FallOffModifier="0.000000" MaxValue="1.000000">
         <Entry>
           <DampeningOverride Command="INPUTCMD_GAS" ValueWhenTrue="0.000000"/>
         </Entry>
       </AnalogInput>
       <AnalogInput Command="INPUTCMD_HANDBRAKE" MouseButton="0" Key="32" KeyFlags="1" BuildUpModifier="0.000000" FallOffModifier="0.000000" MaxValue="1.000000"/>
       <AnalogInput Command="INPUTCMD_CLUTCH" MouseButton="0" Key="16" KeyFlags="1" BuildUpModifier="0.000000" FallOffModifier="0.000000" MaxValue="1.000000"/>
-      <AnalogInput Command="INPUTCMD_LOOK_FORWARD" MouseButton="0" Key="38" KeyFlags="1" BuildUpModifier="0.000000" FallOffModifier="0.000000" MaxValue="1.000000"/>
-      <AnalogInput Command="INPUTCMD_LOOK_BACK" MouseButton="0" Key="40" KeyFlags="1" BuildUpModifier="0.000000" FallOffModifier="0.000000" MaxValue="1.000000"/>
+      <AnalogInput Command="INPUTCMD_LOOK_FORWARD" MouseButton="0" Key="87" KeyFlags="1" BuildUpModifier="0.000000" FallOffModifier="0.000000" MaxValue="1.000000"/>
+      <AnalogInput Command="INPUTCMD_LOOK_BACK" MouseButton="0" Key="83" KeyFlags="1" BuildUpModifier="0.000000" FallOffModifier="0.000000" MaxValue="1.000000"/>
       <AnalogInput Command="INPUTCMD_LOOK_LEFT" MouseButton="0" Key="65" KeyFlags="1" BuildUpModifier="0.000000" FallOffModifier="0.000000" MaxValue="1.000000"/>
       <AnalogInput Command="INPUTCMD_LOOK_RIGHT" MouseButton="0" Key="68" KeyFlags="1" BuildUpModifier="0.000000" FallOffModifier="0.000000" MaxValue="1.000000"/>
       <AnalogInput Command="INPUTCMD_HORN" MouseButton="0" Key="72" KeyFlags="1" BuildUpModifier="0.000000" FallOffModifier="0.000000" MaxValue="1.000000"/>
@@ -416,8 +416,8 @@
       <ButtonInput Command="INPUTCMD_OPEN_MAP" IsPrimary="1" MouseButton="0" Key="77" KeyFlags="1" IsAnOnEvent="1"/>
       <ButtonInput Command="INPUTCMD_PAUSE_GAME" IsPrimary="1" MouseButton="0" Key="27" KeyFlags="1" IsAnOnEvent="1"/>
       <ButtonInput Command="INPUTCMD_ONLINE_ACTIVATE" IsPrimary="1" MouseButton="0" Key="78" KeyFlags="1" IsAnOnEvent="1"/>
-      <AnalogInput Command="INPUTCMD_LOOK_FORWARD" MouseButton="0" Key="38" KeyFlags="1" BuildUpModifier="0.000000" FallOffModifier="0.000000" MaxValue="1.000000"/>
-      <AnalogInput Command="INPUTCMD_LOOK_BACK" MouseButton="0" Key="40" KeyFlags="1" BuildUpModifier="0.000000" FallOffModifier="0.000000" MaxValue="1.000000"/>
+      <AnalogInput Command="INPUTCMD_LOOK_FORWARD" MouseButton="0" Key="87" KeyFlags="1" BuildUpModifier="0.000000" FallOffModifier="0.000000" MaxValue="1.000000"/>
+      <AnalogInput Command="INPUTCMD_LOOK_BACK" MouseButton="0" Key="83" KeyFlags="1" BuildUpModifier="0.000000" FallOffModifier="0.000000" MaxValue="1.000000"/>
       <AnalogInput Command="INPUTCMD_LOOK_LEFT" MouseButton="0" Key="65" KeyFlags="1" BuildUpModifier="0.000000" FallOffModifier="0.000000" MaxValue="1.000000"/>
       <AnalogInput Command="INPUTCMD_LOOK_RIGHT" MouseButton="0" Key="68" KeyFlags="1" BuildUpModifier="0.000000" FallOffModifier="0.000000" MaxValue="1.000000"/>
       <AnalogInput Command="INPUTCMD_HORN" MouseButton="0" Key="72" KeyFlags="1" BuildUpModifier="0.000000" FallOffModifier="0.000000" MaxValue="1.000000"/>
@@ -1143,104 +1143,15 @@
   <ControllerProfile Version="3" Id="dd1490a2-1e85-44e5-aba6-b5701db85491" UserFacingName="IDS_CustomControllerProfile_1" IsDefaultProfile="0" WheelVidPid="0">
     <Layout/>
     <Context Version="3" Context="INPUTCONTEXT_RACING">
-      <Value Key="INPUTCMD_GAS">
-        <GamepadWheelInput Button="GamepadWheelInputRightTrigger" ButtonHigh="GamepadWheelInputNone"/>
-      </Value>
-      <Value Key="INPUTCMD_BRAKE">
-        <GamepadWheelInput Button="GamepadWheelInputLeftTrigger" ButtonHigh="GamepadWheelInputNone"/>
-      </Value>
-      <Value Key="INPUTCMD_STEERING">
-        <GamepadWheelInput Button="GamepadWheelInputLeftThumbstick_Left" ButtonHigh="GamepadWheelInputLeftThumbstick_Right"/>
-      </Value>
       <Value Key="INPUTCMD_HANDBRAKE">
         <GamepadWheelInput Button="GamepadWheelInputBButton" ButtonHigh="GamepadWheelInputNone"/>
       </Value>
-      <Value Key="INPUTCMD_SHIFTUP">
-        <GamepadWheelInput Button="GamepadWheelInputAButton" ButtonHigh="GamepadWheelInputNone"/>
-      </Value>
-      <Value Key="INPUTCMD_SHIFTDOWN"/>
-      <Value Key="INPUTCMD_CLUTCH">
-        <GamepadWheelInput Button="GamepadWheelInputLeftShoulderButton" ButtonHigh="GamepadWheelInputNone"/>
-      </Value>
-      <Value Key="INPUTCMD_LOOK_FORWARD">
-        <GamepadWheelInput Button="GamepadWheelInputRightThumbstick_Up" ButtonHigh="GamepadWheelInputNone"/>
-      </Value>
-      <Value Key="INPUTCMD_LOOK_BACK">
-        <GamepadWheelInput Button="GamepadWheelInputRightThumbstick_Down" ButtonHigh="GamepadWheelInputNone"/>
-      </Value>
-      <Value Key="INPUTCMD_LOOK_LEFT">
-        <GamepadWheelInput Button="GamepadWheelInputRightThumbstick_Left" ButtonHigh="GamepadWheelInputNone"/>
-      </Value>
-      <Value Key="INPUTCMD_LOOK_RIGHT">
-        <GamepadWheelInput Button="GamepadWheelInputRightThumbstick_Right" ButtonHigh="GamepadWheelInputNone"/>
-      </Value>
-      <Value Key="INPUTCMD_SWITCH_CAMERA">
-        <GamepadWheelInput Button="GamepadWheelInputRightShoulderButton" ButtonHigh="GamepadWheelInputNone"/>
-      </Value>
-      <Value Key="INPUTCMD_MULLIGAN">
-        <GamepadWheelInput Button="GamepadWheelInputYButton" ButtonHigh="GamepadWheelInputNone"/>
-      </Value>
-      <Value Key="INPUTCMD_ACTIVATE">
-        <GamepadWheelInput Button="GamepadWheelInputXButton" ButtonHigh="GamepadWheelInputNone"/>
-      </Value>
-      <Value Key="INPUTCMD_OPEN_MAP">
-        <GamepadWheelInput Button="GamepadWheelInputBackButton" ButtonHigh="GamepadWheelInputNone"/>
-      </Value>
-      <Value Key="INPUTCMD_HORN">
-        <GamepadWheelInput Button="GamepadWheelInputRightThumbstickButton" ButtonHigh="GamepadWheelInputNone"/>
-      </Value>
     </Context>
-    <Context Version="3" Context="INPUTCONTEXT_UI">
-      <Value Key="INPUTCMD_MULLIGAN">
-        <GamepadWheelInput Button="GamepadWheelInputRightShoulderButton" ButtonHigh="GamepadWheelInputNone"/>
-      </Value>
-    </Context>
-    <Context Version="3" Context="INPUTCONTEXT_RACING_UI">
-      <Value Key="INPUTCMD_TELEMETRY_TOGGLE"/>
-      <Value Key="INPUTCMD_PHOTO_MODE_TOGGLE">
-        <GamepadWheelInput Button="GamepadWheelInputDPad_Up" ButtonHigh="GamepadWheelInputNone"/>
-      </Value>
-      <Value Key="INPUTCMD_RADIO_LEFT"/>
-      <Value Key="INPUTCMD_RADIO_RIGHT">
-        <GamepadWheelInput Button="GamepadWheelInputDPad_Right" ButtonHigh="GamepadWheelInputNone"/>
-      </Value>
-      <Value Key="INPUTCMD_MINILEADERBOARD_TOGGLE"/>
-      <Value Key="INPUTCMD_ANNA_ACTIVATE">
-        <GamepadWheelInput Button="GamepadWheelInputDPad_Down" ButtonHigh="GamepadWheelInputNone"/>
-      </Value>
-      <Value Key="INPUTCMD_QUICKCHAT_ACTIVATE">
-        <GamepadWheelInput Button="GamepadWheelInputDPad_Left" ButtonHigh="GamepadWheelInputNone"/>
-      </Value>
-      <Value Key="INPUTCMD_GAME_CHAT_TEXT"/>
-      <Value Key="INPUTCMD_CONVERTIBLE_TRIGGER"/>
-    </Context>
-    <Context Version="3" Context="INPUTCONTEXT_TELEMETRY_UI">
-      <Value Key="INPUTCMD_TELEMETRY_PREV"/>
-      <Value Key="INPUTCMD_TELEMETRY_NEXT"/>
-    </Context>
-    <Context Version="3" Context="INPUTCONTEXT_RACING_CAMERA_ONLY">
-      <Value Key="INPUTCMD_SWITCH_CAMERA">
-        <GamepadWheelInput Button="GamepadWheelInputLeftShoulderButton" ButtonHigh="GamepadWheelInputNone"/>
-      </Value>
-      <Value Key="INPUTCMD_ACTIVATE">
-        <GamepadWheelInput Button="GamepadWheelInputAButton" ButtonHigh="GamepadWheelInputNone"/>
-      </Value>
-    </Context>
+    <Context Version="3" Context="INPUTCONTEXT_UI"/>
+    <Context Version="3" Context="INPUTCONTEXT_RACING_UI"/>
+    <Context Version="3" Context="INPUTCONTEXT_RACING_CAMERA_ONLY"/>
     <Context Version="3" Context="INPUTCONTEXT_COPTER"/>
-    <Context Version="3" Context="INPUTCONTEXT_ANNA">
-      <Value Key="INPUTCMD_ANNA_ITEM_1">
-        <GamepadWheelInput Button="GamepadWheelInputDPad_Up" ButtonHigh="GamepadWheelInputNone"/>
-      </Value>
-      <Value Key="INPUTCMD_ANNA_ITEM_2">
-        <GamepadWheelInput Button="GamepadWheelInputDPad_Left" ButtonHigh="GamepadWheelInputNone"/>
-      </Value>
-      <Value Key="INPUTCMD_ANNA_ITEM_3">
-        <GamepadWheelInput Button="GamepadWheelInputDPad_Right" ButtonHigh="GamepadWheelInputNone"/>
-      </Value>
-      <Value Key="INPUTCMD_ANNA_ITEM_4">
-        <GamepadWheelInput Button="GamepadWheelInputDPad_Down" ButtonHigh="GamepadWheelInputNone"/>
-      </Value>
-    </Context>
+    <Context Version="3" Context="INPUTCONTEXT_ANNA"/>
   </ControllerProfile>
   <ControllerProfile Version="3" Id="57c01b74-e9d5-488a-b43e-804fe8352c37" UserFacingName="IDS_CustomControllerProfile_2" IsDefaultProfile="0" WheelVidPid="0">
     <Layout/>
