@@ -30,7 +30,7 @@
 ## 5. Autodesk Robot Structural Analysis
 - **Description**: Autodesk Robot is a structural analysis software used for designing steel and concrete buildings. It has a user-friendly interface and integrates well with Autodesk Revit for Building Information Modeling (BIM).
 - **Pricing**:
-  - Annual license: $2,500
+  - Annual license: $2,500 (approx.)
   - Free educational versions available for students
 - **Use in Civil Engineering**: Common for structural design, with strong integration with Revit, making it popular in BIM workflows.
 
