@@ -25,21 +25,23 @@ As the number of sides $N$ of the polygon increases, both the inscribed and circ
 
 ### Deriving the Bounds:
 
-For a circle of radius $r = 1$:
-- The circumference $C$ of the circle is $2\pi$.
-- For a regular polygon with $N$ sides, we can derive the following formulas:
+Archimedes Method of Exhaustion has been used to derive these formulas, follow the link given below in which the derivation has been explained beautifully.
+
+[ARCHIMEDES EXHAUSTION METHOD EXPLAINED](https://youtu.be/DLZMZ-CT7YU?feature=shared)
+
+For a circle of unit radius, $r = 1$:
+- The circumference $C$ of the circle is $\pi$.
+- For a regular polygon with $N$ no. of sides, we can derive the following formulas:
 
 #### Lower Bound (Inscribed Polygon):
 The perimeter of an inscribed polygon with $N$ sides can be calculated as:
-$$
-\pi_{\text{inscribed}} = N \cdot \sin\left(\frac{\pi}{N}\right)
-$$
+
+$$\pi_{\text{inscribed}} = N \cdot \sin\left(\frac{180}{N}\right)$$
 
 #### Upper Bound (Circumscribed Polygon):
 The perimeter of a circumscribed polygon with $N$ sides can be calculated as:
-$$
-\pi_{\text{circumscribed}} = N \cdot \tan\left(\frac{\pi}{N}\right)
-$$
+
+$$\pi_{\text{circumscribed}} = N \cdot \tan\left(\frac{180}{N}\right)$$
 
 These formulas yield the lower and upper bounds for π.
 
@@ -50,16 +52,16 @@ These formulas yield the lower and upper bounds for π.
 Let's calculate the bounds for polygons with $N = 3$ (triangle), $N = 4$ (square), and $N = 5$ (pentagon), assuming a unit circle with $r = 1$.
 
 - **For $N = 3$ (Triangle):**
-  - **Lower Bound**: $\pi_{\text{inscribed}} = 3 \cdot \sin(\pi/3) = 3 \cdot \frac{\sqrt{3}}{2} \approx 2.598$
-  - **Upper Bound**: $\pi_{\text{circumscribed}} = 3 \cdot \tan(\pi/3) = 3 \cdot \sqrt{3} \approx 5.196$
+  - **Lower Bound**: $\pi_{\text{inscribed}} = 3 \cdot \sin(180/3) = 3 \cdot \frac{\sqrt{3}}{2} \approx 2.598$
+  - **Upper Bound**: $\pi_{\text{circumscribed}} = 3 \cdot \tan(180/3) = 3 \cdot \sqrt{3} \approx 5.196$
 
 - **For $N = 4$ (Square):**
-  - **Lower Bound**: $\pi_{\text{inscribed}} = 4 \cdot \sin(\pi/4) = 4 \cdot \frac{\sqrt{2}}{2} \approx 2.828$
-  - **Upper Bound**: $\pi_{\text{circumscribed}} = 4 \cdot \tan(\pi/4) = 4 \cdot 1 = 4.000$
+  - **Lower Bound**: $\pi_{\text{inscribed}} = 4 \cdot \sin(180/4) = 4 \cdot \frac{\sqrt{2}}{2} \approx 2.828$
+  - **Upper Bound**: $\pi_{\text{circumscribed}} = 4 \cdot \tan(180/4) = 4 \cdot 1 = 4.000$
 
 - **For $N = 5$ (Pentagon):**
-  - **Lower Bound**: $\pi_{\text{inscribed}} = 5 \cdot \sin(\pi/5) \approx 2.938$
-  - **Upper Bound**: $\pi_{\text{circumscribed}} = 5 \cdot \tan(\pi/5) \approx 3.632$
+  - **Lower Bound**: $\pi_{\text{inscribed}} = 5 \cdot \sin(180/5) \approx 2.938$
+  - **Upper Bound**: $\pi_{\text{circumscribed}} = 5 \cdot \tan(180/5) \approx 3.632$
 
 ### Table of Results:
 
