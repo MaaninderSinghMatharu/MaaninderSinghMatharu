@@ -88,10 +88,6 @@ However, for a longitudinal reinforcing bar in a column, nominal cover shall in 
       - Cantilever: 7
       - Simply supported: 20
       - Continuous: 26
-    - b) For spans above 10 m, the values in (a) may be multiplied by 10/span in metres, except for cantilever in which case deflection calculations should be made.
-    - c) Depending on the area and the stress of steel for tension reinforcement, the values in (a) or (b) shall be modified by multiplying with the modification factor obtained as per Fig. 4.
-    - d) Depending on the area of compression reinforcement, the value of span to depth ratio be further modified by multiplying with the modification factor obtained as per Fig. 5.
-    - e) For flanged beams, the values of (a) or (b) be modified as per Fig. 6 and the reinforcement percentage for use in Fig. 4 and 5 should be based on area of section equal to $b_t d$.
 
 #### **23.3 Slenderness Limits for Beams to Ensure Lateral Stability**
 - : A simply supported or continuous beam shall be so proportioned that the clear distance between the lateral restraints does not exceed 60 b or $\frac{250b^2}{d}$ whichever is less, where $d$ is the effective depth of the beam and $b$ the breadth of the compression face midway between the lateral restraints. For a cantilever, the clear distance from the free end of the cantilever to the lateral restraint shall not exceed 25 b or $\frac{100b^2}{d}$ whichever is less.
@@ -187,17 +183,8 @@ However, for a longitudinal reinforcing bar in a column, nominal cover shall in 
     - $b$ = breadth of the beam or breadth of the web of flanged beam, and
     - $f_{y}$ = characteristic strength of the stirrup reinforcement in N/mm² which shall not be taken greater than 415 N/mm².
     - Where the maximum shear stress calculated is less than half the permissible value and in members of minor structural importance such as lintels, this provision need not be complied with.
-
-- **26.5.1.7 Distribution of Torsion Reinforcement**
-  - : When a member is designed for torsion (see 41 or B-6) torsion reinforcement shall be provided as below:
-    - a) The transverse reinforcement for torsion shall be rectangular closed stirrups placed perpendicular to the axis of the member. The spacing of the stirrups shall not exceed the least of $x_{i}, \frac{x_{i} + y_{i}}{4}$ and 300 mm, where $x_{i}$ and $y_{i}$ are respectively the short and long dimensions of the stirrup.
-    - b) Longitudinal reinforcement shall be placed as close as is practicable to the corners of the cross-section and in all cases, there shall be at least one longitudinal bar in each corner of the ties. When the cross-sectional dimension of the member exceeds 450 mm, additional longitudinal bars shall be provided to satisfy the requirements of minimum reinforcement and spacing given in 26.5.1.3.
-
-- **26.5.1.8 Reinforcement in Flanges of T-and L-beams**
-  - : Reinforcement in flanges of T-and L-beams shall satisfy the requirements in 23.1.1(b). Where flanges are in tension, a part of the main tension reinforcement shall be distributed over the effective flange width or a width equal to one-tenth of the span, whichever is smaller. If the effective flange width exceeds one-tenth of the span, nominal longitudinal reinforcement shall be provided in the outer portions of the flange.
-
-
 ---
+
 
 
 
@@ -314,7 +301,7 @@ The clear spacing between longitudinal bars shall not exceed **300 mm**.
 ### **7.3 Transverse Reinforcement**  
 **7.3.1 Type and Detailing**  
 - Transverse reinforcement shall consist of **closed loops** (rectangular or spiral) with **135° hooks** and an extension of **8 times bar diameter** (≥ 75 mm).  
-- In rectangular columns, cross-ties shall be added if any side exceeds **300 mm** (see Fig. 10).
+- In rectangular columns, cross-ties shall be added if any side exceeds **300 mm**.
 
 **7.3.2 Spacing and Diameter**  
 - Minimum diameter: **8 mm** (for longitudinal bars ≤ 32 mm) or **10 mm** (for bars > 32 mm).  
@@ -324,4 +311,4 @@ The clear spacing between longitudinal bars shall not exceed **300 mm**.
   (c) **100 mm** (in regions with special confining reinforcement).
 
 **7.6.3 Termination in Footings**  
-Special confining reinforcement shall extend ≥ **300 mm** into footings or mats (see Fig. 13).
+Special confining reinforcement shall extend ≥ **300 mm** into footings or mats.
