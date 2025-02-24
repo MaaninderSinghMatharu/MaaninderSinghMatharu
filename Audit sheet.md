@@ -6,7 +6,7 @@
   - Defines **columns/struts** (compression members with effective length > 3× least lateral dimension) and categorizes them as **short** (slenderness ratio < 12) or **slender** (slenderness ratio ≥ 12).  
 
 - **25.3 Slenderness Limits**  
-  - Limits unsupported length to **60× least lateral dimension**. For unrestrained columns, limits to $ \frac{100b^2}{D} $.
+  - Limits unsupported length to **60× least lateral dimension**. For unrestrained columns, limits to $\frac{100b^2}{D}$.
 
 ---
 
@@ -17,7 +17,7 @@
   - Bars ≥ 12 mm diameter; minimum 4 bars for rectangular columns, 6 for circular.
 - **26.5.3.2 Transverse Reinforcement**  
   - **Lateral ties**:  
-    - Diameter ≥ $ \frac{1}{4} \times \text{largest longitudinal bar} $ (min. 6 mm).  
+    - Diameter ≥ $\frac{1}{4} \times \text{largest longitudinal bar}$ (min. 6 mm).  
     - Spacing ≤ *least of*: 16× smallest longitudinal bar, 300 mm, or least lateral dimension.  
   - **Helical reinforcement**:  
     - Pitch ≤ 75 mm, 1/6 core diameter, or 3× helix diameter.  
