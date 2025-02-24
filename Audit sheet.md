@@ -1,15 +1,5 @@
 # **IS 456:2000**
 
-### **Explicit Clauses for Columns**
-#### **Clause 25: Compression Members**
-- **25.1 Definitions**  
-  - Defines **columns/struts** (compression members with effective length > 3× least lateral dimension) and categorizes them as **short** (slenderness ratio < 12) or **slender** (slenderness ratio ≥ 12).  
-
-- **25.3 Slenderness Limits**  
-  - Limits unsupported length to **60× least lateral dimension**. For unrestrained columns, limits to $\frac{100b^2}{D}$.
-
----
-
 #### **Clause 26.5.3: Columns (Reinforcement Requirements)**
 - **26.5.3.1 Longitudinal Reinforcement**  
   - **Minimum reinforcement**: 0.8% of gross cross-sectional area.  
